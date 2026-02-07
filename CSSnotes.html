@@ -1,0 +1,94 @@
+                                            <!-- PROPERTIES USED IN CSS -->
+<!-- 1. WHEN CSS APPLIED ON NAV BAR... -->
+<!--  you can apply "display:flex" property when you want: * menu items should be in a line.
+                                                           * Left-right alignment.
+                                                           * Centered navigation.
+                                                           * Space between logo and menu.
+Note1: by default nav(display:block) is a block-line element, it will take the whole width/space, and the items inside it stack vertically.                                                       
+Note2: We can do work without flex but, it will be messy way==> display: inline-block
+                                                                margin:20px;                                                         
+                                                          -->
+
+
+ 
+ 
+ 
+ 
+                                                         <!-- 2. WHEN CSS APPLIED ON SECTION ELEMENT   -->
+ <!-- 
+                                                                      NOTES
+
+                                                ABOUT: max-width
+
+    property==> max-width:900px;
+    it means the element is not more than wide (900px). if it will be wide more than this particular size on the screen,
+    it will shrink. 
+
+    
+                                                ABOUT: box-shadow
+    SYNTAX==> 
+    box-shadow: X-offset Y-offset Blur Spread Color;
+    ###IN DETAIL==>
+    X-offset ==> 0px
+    y-offset==> 2px
+    Blur-radius==> 10px
+    Spread==> shadow size(optional)
+    Color==> shadow color(optional)
+    forex: box-shadow:0px 2px 10px rgba(red, green, blue, alpha);
+
+
+### it helps to give a perfect shadow to the box
+### it shows the shadow behind the box
+###  VALUES: box-shadow: X Y Blur Color;
+
+Value	                                Meaning
+0	                            not move Left / right
+2px	                            shadow (downwards)
+10px	                        how much the shadow spread/soft
+rgba(0,0,0,0.1)	                Black color, 10% opacity
+
+Result: soft shadow, not harsh
+it is used to make the box not boring, it gives 3D effect
+it is used because the users thinks that the content is imp/clickable.
+that's why it is used in ==> cards
+                             buttons
+                             navbars
+                             product boxes   
+                             
+                                        
+                                            ABOUT border-collapse
+
+    ## it controls border behaviour ==> border-collapse
+        (Either the border are different or else it will combine).
+
+       1. By default(value==> border-collapse:separate)(double lines)
+       # Everyt cell (td, th) have own border.
+       # it shows double line or a gap between the border.
+       # Without border==>Double border, messy....
+
+       table, td, th{
+       border: 1px solid black;
+
+       # table{
+       border-spacing:10px;
+}
+
+it only works with border-collapse:separate(by default)
+
+
+2. border-collapse: collapse;(double border ends)
+## Merge adjacent border.
+## Only shows single clean line.
+## Table looks neat & professional
+## border-spacing not work with border-collapse:collapse;
+    
+ 
+                                      ABOUT table tr:nth-child(even)
+
+       ** table tr==> means all the rows of the table
+       ** nth-child(even)==> means all the even rows(2nd, 4th, 6th, etc..)
+       ** background-color==> to all even rows...
+    
+
+
+   -->

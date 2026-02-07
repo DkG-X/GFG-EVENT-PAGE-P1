@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event page - HTML</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- We'll use External CSS here, we can whether use Internal CSS -->
+</head>
+<body>
+                                        <!-- Design inspired by GeeksforGeeks
+                                        Used for learning and practice purposes -->
+
+  <!-- First we'll complete all the HTML part then, move forward towards CSS. -->
+
+  <header>
+    <!-- header==> semantic tag are use as a container to include all the top part of the website(heading,logo,signup, and dropdown,etc) -->
+<h1>Welcome to GeeksforGeeks TechCon 2025</h1>
+<p>The Ultimate Technology and Progamming Conference</p>
+</header>
+
+<nav>
+<!-- navigation bar==> A semantic tag which not include all the links of the website.
+ only include the main links which tells you about the page (About, Home, and Contact, etc)  -->
+  <a href="#">About</a>|
+  <a href="#">Schedule</a>|
+  <a href="#">Speakers</a>|
+  <a href="#">Contact</a>
+</nav>
+
+<section >
+  <!-- it is also one of the semantic tag used to include all the main content of the website.
+   FOR EX: *CHAPTERS
+           *INTRODUCTION
+           *INFORMATION
+           *NEWS
+  -->
+  <h1>About the event</h1>
+  <p> GeeksforGeeks TechCon 2025 brings together leading minds in progamming, tech, and innovation. Join us for a day of <br>nsightful talks, hands-on workshops, and an opportunity to network with fellow  geeks and professionals from all around the <br>world.</p>
+  </section>
+  <section >
+  <h1>Event Schedule</h1>
+  <table>
+    <thead>
+    <tr>
+      <th>Time</th>
+      <th>Session</th>
+      <th>Contest</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>9:00 AM</td>
+      <td>Opening Keynote</td>
+      <td>GeeksforGeeks Coding Platform</td>
+    </tr>
+    <td>10:30 AM</td>
+    <td>Understandidg AI and Machine Learning</td>
+    <td>Mr. Arving dumar</td>
+    <tr>
+      <td>1:00 PM</td>
+      <td>Lunch Break</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2:00 PM</td>
+      <td>Exploring the Future of Cloud Computing</td>
+      <td>Ms. Neha Gupta</td>
+    </tr>
+   </tbody>
+  </table>
+</section>
+<section id="speak">
+  <h1>Meet the Speakers</h1>
+  <ul>
+    <li><strong>Dr.Radhika Sharma:</strong> AI Expert and 
+      Researcher </li>
+    <li><strong>Mr Arvind Kumar:</strong> Senior Data Scientist at TechWave.</li>
+    <li><strong>Ms Neha Gupta:</strong> Cloud Computing Speacilist at CloudTech. </li>
+    <li><strong>Mr. Ashish kapadia:</strong> Full-stack developer</li>
+  </ul>
+</section>
+<section id="cont">
+  <h1>Contact Us</h1>
+  <form action="">
+    <label for="name">Name</label>
+    <input type="name" id="name" name="fname">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email">
+
+    <label for="mess">Message</label>
+    <textarea name="Message" id="mess" rows="5" cols="30" placeholder="type your Message here..."></textarea>
+    <button type="submit" id="send-btn">Send</button>
+
+  </form>
+</section>
+  
+</body>
+</html>

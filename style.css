@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    /* Creates space outside the element. */
+    padding: 0;
+    /* Creates space inside the element(beween content and border). */
+}
+
+header{
+    background-color: #3CB043;
+    /* Sets the background color of the element. */
+    color: white;
+    /* Sets the text-color of the element. */
+    text-align: center;
+    /* Aligns the text inside an element to the center. */
+    padding: 30px;
+    /* Adds equal spacing on all sides of an element. */
+
+}
+nav{
+   
+    text-align: center;  
+    padding: 12px 0px; 
+    background-color: #404040;
+}
+
+nav a{
+    color: whitesmoke;
+    margin: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* sets the font-type of the text. */
+    font-weight: 500;
+    /* to control the thickness/boldness of the font. Thickness/Thinness are decide by font-weight property.
+    it is given to the element to make the element readable.*/
+    font-size: 1.1rem;
+    /* sets the size of the font. */
+    letter-spacing: 0.5px;
+    /* sets the space between the letters in text. */
+}
+
+section{
+    padding: 50px;
+    margin: 20px auto;
+    max-width: 900px;
+    /* sets the maximum width of an element. */
+    /* it apply on the w */
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    /*Used to add the shadow behind a box/element like a div, button, card etc. */
+    transition: box-shadow 0.3s ease;
+    /* it makes the box-shadow change smoothly in 0.3sec(s)/millisecs(ms) instead of changing instantly. */
+
+
+}
+
+section:hover{
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+section h1{
+    color: rgb(7, 189, 244);
+    font-size: 1.8rem;
+    /* sets the size of the text. */
+    margin-bottom: 10px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    /* it merges adjacent table borders into a single border */
+    margin-top: 15px;
+
+   
+}
+table th, table td{
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+table th{
+    background-color: #C5C6d0;
+}
+table tr:nth-child(even){
+    /* table tr:nth-child(even): applies background color to every even-numbered row of the table. */
+    background-color: rgb(250, 243, 243);
+
+  
+}
+table tr:hover{
+    background-color:papayawhip ;
+}
+#speak strong{
+    color: #0797c2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#speak li{
+    font-weight: 200px;
+    margin: 20px;
+    font-size: 1.2rem;
+
+}
+#cont label{
+display: block;
+margin: 24px;
+margin-left: 30px;
+
+
+}
+#cont input {
+    display: block;
+    width: 70%;
+    padding: 10px;
+    margin: 30px;
+}
+
+#mess{
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin:30px;
+}
+#send-btn{
+    background-color: rgb(13, 64, 234);
+    color: white;
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* align-self: center;==>it works only when parent are flex */
+    display: block;
+    margin: 20px auto 0;
+    padding: 0.9rem 19rem;
+    margin: auto;
+
+
+
+}
+#send-btn:hover{
+    background-color: rgb(13, 234, 87);
+}
+    
