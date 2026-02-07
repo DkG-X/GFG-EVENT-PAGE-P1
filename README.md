@@ -10,4 +10,8 @@ As a beginner in web development, I'm learning by working on projects like this 
 
 Later on, I'll be sharing more websites that I create as part of my learning journey.
 So, let's get started!
+
+Note: This project is created for learning purposes and is inspired by GeeksforGeeks.
+All credit for the original concept goes to GeeksforGeeks.
+
 </p>
